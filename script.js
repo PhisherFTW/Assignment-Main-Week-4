@@ -109,7 +109,6 @@ function inputEquals() {
             result = null;
         }
     } else {
-        //handles first operation
         secondOperand = displayValue;
         result = operate(Number(firstOperand), Number(secondOperand), firstOperator);
         if(result === 'lmao') {
@@ -158,18 +157,18 @@ function inputBackspace() {
     }
 }
 
-function operate(x, y, op) {
-    if(op === '+') {
-        return x + y;
-    } else if(op === '-') {
-        return x - y;
-    } else if(op === '*') {
-        return x * y;
-    } else if(op === '/') {
-        if(y === 0) {
+function operate(a, b, c) {
+    if(c === '+') {
+        return a + b;
+    } else if(c === '-') {
+        return a - b;
+    } else if(c === '*') {
+        return a * b;
+    } else if(c === '/') {
+        if(b === 0) {
             return 'lmao';
         } else {
-        return x / y;
+        return a / b;
         }
     }
 }

@@ -46,30 +46,30 @@ button {
     background-color: #aec0d3;
 }
 
-#zero {
+.zero {
     grid-column: span 2;
 }
 
 .operator {
-    background-color: #e5ecf3;    
+    background-color: #d1dde9;    
 }
 
 .equals {
-    background-color: #e5ecf3;
+    background-color: #d1dde9;
 }
 
 .decimal {
-    background-color: #217C7E;
+    background-color: #d1dde9;
 }
 
 .clear {
-    background-color: dodgerblue;
+    background-color: #d1dde9;
 }
 
 .sign {
-    background-color: dodgerblue;
+    background-color: #d1dde9;
 }
 
 .percent {
-    background-color: dodgerblue;
+    background-color: #d1dde9;
 }
