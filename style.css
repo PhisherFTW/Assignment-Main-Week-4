@@ -36,7 +36,6 @@ html {
 
 button {
     margin: 1px;
-    border-radius: 5%;
     border: none;
     font-size: 2rem;
     font-family: 'Joan', serif;
@@ -48,6 +47,7 @@ button {
 
 .zero {
     grid-column: span 2;
+    background-color: #aec0d3
 }
 
 .operator {
